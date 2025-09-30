@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lista de frutas</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="title text-center display-4">Lista de frutas</h1>
+        </div>
+        <div class="col-12">
+          <div class="card">
+            <ul id="Lista" class="list-group list-group-flush"></ul>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 text-center">
+          <button type="button" class="btn btn-danger" onclick="removerFruta()">
+            Remover item
+          </button>
+        </div>
+        <div
+          class="col-12 col-md-6 text-center d-flex align-items-center justify-content-center"
+        >
+          <input id="Valor" placeholder=" Adicionar" />
+          <button type="button" class="btn btn-success" onclick="addFruta()">
+            Adicionar item
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
