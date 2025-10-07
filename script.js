@@ -1,6 +1,6 @@
-let frutas = [];
+let frutas = ["Item", "Item 2"];
 let lista = document.getElementById("Lista");
-
+atlista();
 function adcitem(fruta) {
   let item = document.createElement("li");
   item.classList.add("list-group-item");
